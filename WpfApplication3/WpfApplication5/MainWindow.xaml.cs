@@ -13,19 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication3
+namespace WpfApplication5
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string AppName { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            AppName = " Voi sadsadölsad";
-            textblock2.DataContext = this;
         }
     }
 }
